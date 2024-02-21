@@ -1,0 +1,177 @@
+@media screen and (max-width:991px){
+   
+   /* heading-section */
+
+   .headings{
+      display: none;
+   }
+
+   .signin-button{
+      margin: 20px 0px;
+   }
+   
+   .signup-button{
+       margin: 20px 0px;
+   }
+
+   .toogle{
+      display: block;
+      padding-right: 30px;
+   }
+
+   /* design-confidently */
+
+   .design-confidently{
+      margin-left:15px ;
+      margin-right:15px ;
+   }
+
+   /* companies */
+
+   .companies-section {
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+
+   .companies-section img{
+      margin: 0px 15px;
+   }
+
+   /* example-area */
+
+   .example-pictures{
+      flex-wrap: wrap;
+      gap: 10px
+   }
+
+   .picture-1{
+      width:40% ;
+   }
+
+   .picture-2{
+      width:40% ;
+   }
+
+   .picture-3{
+      width:40% ;
+   }
+
+   .picture-4{
+      width:40% ;
+   }
+
+   /* pannel-section */
+
+   .pannel{
+      display: none;
+   }
+}
+
+
+/* media query less than 768px */
+
+@media screen and (max-width:768px){
+
+
+   /* design-confidently */
+
+
+   .container{
+     flex-direction: column;
+     justify-content: flex-start;
+     gap: 50px;
+   }
+
+   .left-content{
+      max-width: 80vw;
+   }
+
+   /* reserch-section */
+
+   .reserch{
+      background-size: contain;
+   }
+
+   .card{
+      max-width:30vw;
+      margin-block: 10px;
+   }
+
+   /* poster-1-section */
+
+   .poster-1{
+      flex-direction: column-reverse;
+   }
+
+   .poster-1-image img{
+      max-width:80vw;
+   }
+
+   .poster-1-content{
+      max-width: 80vw;
+   }
+
+   /* poster-2-section */
+
+   .poster-2{
+      flex-direction: column-reverse;
+   }
+
+   .poster-2-image img{
+      max-width:80vw;
+   }
+
+   .poster-2-content{
+      max-width: 80vw;
+   }
+
+   /* poster-3-section */
+
+   .poster-3{
+      flex-direction: column-reverse;
+   }
+
+   .poster-3-image img{
+      max-width:80vw;
+   }
+
+   .poster-3-content{
+      max-width: 80vw;
+   }
+
+   /* sub-footer-section */
+
+   .sub-footer{
+      gap: 15px;
+   }
+
+   /* footer-section */
+
+   .footer-content a{
+      margin: 10px;
+   }
+
+   .footer-img a{
+      margin: 10px;
+   }
+
+   .poster{
+      display: none;
+  }
+
+  .cta{
+      width: 100vw;
+      text-align: justify;
+      color: white;
+  }
+
+  .sbres{
+      flex-direction: column;
+      
+  }
+
+  .footres{
+      flex-direction: column;
+      height: auto;
+  }
+}
